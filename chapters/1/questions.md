@@ -42,7 +42,7 @@ Why can it be run in these environments? It can run on these environment because
 
 > What is a function? A function is a way to manipulate an object.
 
-Not necessarily. A function can do many different things. I need to get you a more formal definition of what a function is. In mathematics, a function is an object that takes elements from one set and transforms/maps it to another set. In programming a function is a logical division of your program, which is why they're often referred to as sub routines. [Subroutine definition on wiki](https://en.wikipedia.org/wiki/Subroutine). These functions can act like mathematical functions or be treated as small chunks of code that can be run.
+Not necessarily. A function can do many different things. I need to get you a more formal definition of what a function is. In mathematics, a function is a _conceptual object_ that takes elements from one set and transforms/maps it to another set. In programming a function is a logical division of your program, which is why they're often referred to as sub routines. [Subroutine definition on wiki](https://en.wikipedia.org/wiki/Subroutine). These functions can act like mathematical functions or be treated as small chunks of code that can be run.
 
 > What is the difference, then, between a function and a method?
 
