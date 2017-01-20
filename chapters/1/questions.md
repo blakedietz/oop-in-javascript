@@ -77,9 +77,8 @@ console.log(personAge);
 
 > On page 4, the author says that first-class functions are represented as objects - what does that mean, then, in defining first-class functions?
 > ...
-> Does this mean that first-class functions are things that act upon object values?
 
-I think that I learned something new. Or that I relearned something that I wasn't familiar with. Either way, I'm learning with you!!! WOOOHOOOOO. Good questions. Here's a great [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function). The most interesting part specifically is this.
+I think that I learned something new. Or that I relearned something that I wasn't familiar with. Either way, I'm learning with you!!! WOOOHOOOOO. Good questions. Here's a great [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function). The most interesting part specifically is this. I'm going to try and tie all of this together after your next question on it
 
 ```js
 // Example can be run directly in your JavaScript console
@@ -92,4 +91,10 @@ adder(2, 6);
 // > 8
 ```
 
+> Does this mean that first-class functions are things that act upon object values?
 
+So we need to make a couple of distinctions here. We need to look at the concept of first-class functions vs the implementation.
+
+The concept of first class functions:
+
+How first class functions are implemented in js:
