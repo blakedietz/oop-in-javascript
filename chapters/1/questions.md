@@ -48,6 +48,33 @@ Not necessarily. A function can do many different things. I need to get you a mo
 
 In my mind, functions can exist without objects. Methods exist on objects. I'm not sure if this is necessarily the formal definition. Let's see what some other resources say. [Stack overflow post on the topic](http://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function). Looks like it's the case.
 
+So in javascript a function looks like this:
+
+```js
+var add = function(x, y) {
+  return x + y;
+};
+
+var result = add(1, 1);
+
+console.log(result);
+```
+
+This is _one_ example of how a method could be attached to an object.
+
+```js
+var person = {
+  age: 25,
+  getAge: function() {
+    return this.age;
+  }
+};
+
+personAge = person.getAge();
+
+console.log(personAge);
+```
+
 > On page 4, the author says that first-class functions are represented as objects - what does that mean, then, in defining first-class functions?
 
 I think that I learned something new. Or that I relearned something that I wasn't familiar with. Either way, I'm learning with you!!! WOOOHOOOOO. Good questions. Here's a great [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function). The most interesting part specifically is this.
