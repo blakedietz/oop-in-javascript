@@ -41,15 +41,15 @@ Why can it be run in these environments? It can run on these environment because
 
 > What is a function? A function is a way to manipulate an object.
 
-Not necessarily. A function can do many different things. I need to get you a more formal definition of what a function is. In mathematics, a function is an object that takes an element from one set and transforms/maps it to another set. In programming a function is a logical division of your program, which is why they're often referred to as sub routines. (Subroutine definition on wiki)[https://en.wikipedia.org/wiki/Subroutine].
+Not necessarily. A function can do many different things. I need to get you a more formal definition of what a function is. In mathematics, a function is an object that takes an element from one set and transforms/maps it to another set. In programming a function is a logical division of your program, which is why they're often referred to as sub routines. [Subroutine definition on wiki](https://en.wikipedia.org/wiki/Subroutine).
 
 > What is the difference, then, between a function and a method?
 
-In my mind, functions can exist without objects. Methods exist on objects. I'm not sure if this is necessarily the formal definition. Let's see what some other resources say. (Stack overflow post on the topic)[http://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function].
+In my mind, functions can exist without objects. Methods exist on objects. I'm not sure if this is necessarily the formal definition. Let's see what some other resources say. [Stack overflow post on the topic](http://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
 
 > On page 4, the author says that first-class functions are represented as objects - what does that mean, then, in defining first-class functions?
 
-I think that I learned something new. Or that I relearned something that I wasn't familiar with. Either way, I'm learning with you!!! WOOOHOOOOO. Good questions. Here's a great (link)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function]. The most interesting part specifically is this.
+I think that I learned something new. Or that I relearned something that I wasn't familiar with. Either way, I'm learning with you!!! WOOOHOOOOO. Good questions. Here's a great [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function). The most interesting part specifically is this.
 
 ```js
 // Example can be run directly in your JavaScript console
