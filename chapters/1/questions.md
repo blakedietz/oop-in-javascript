@@ -6,12 +6,13 @@ What is a function? A function is a way to manipulate an object.  What is the di
 
 On page 4, the author says that first-class functions are represented as objects - what does that mean, then, in defining first-class functions?
 
-"Even functions, which languages traditionally make you jump through hoops to get references to, are simply represented as objects in JavaScript, making them first-class functions."
+> "Even functions, which languages traditionally make you jump through hoops to get references to, are simply represented as objects in JavaScript, making them first-class functions."
+
 Does this mean that first-class functions are things that act upon object values? Maybe I need to take a step back and chew on the concept of the object first!
 Reference types: unlike primitive types which seem to be standard data types (numbers, strings, et al), reference types seem to be defined as objects, in memory, that the type reference ie it points to the space in memory where the object is located but not the object itself? How does the space an object takes up in memory add to the definition of an object? How important is this? I know that it is important for garbage collection but is it for anything else?
 This paragraph is a bit confusing because it ties in (I believe) how a computer works in relation to the way a programming language works:
 
-"While other programming languages distinguish between primitive and reference types by storing primitives on the stack and references in the heap, JavaScript does away with this concept completely. Instead, there is the concept of a variable object that tracks variables for a particular scope. Primitive values are stored directly on the variable object while reference values place a pointer in the variable object. That pointer is a reference to a location in memory where the object is stored. There are, of course, other differences between the two types."
+> "While other programming languages distinguish between primitive and reference types by storing primitives on the stack and references in the heap, JavaScript does away with this concept completely. Instead, there is the concept of a variable object that tracks variables for a particular scope. Primitive values are stored directly on the variable object while reference values place a pointer in the variable object. That pointer is a reference to a location in memory where the object is stored. There are, of course, other differences between the two types."
 
 Interesting!!: when making assignments to variables (on pg 6 for reference), if you change the variable assignment on one object, it won't effect the other assignment. Why and how does this work?  Usually if you are making a = b and b = c, a = c with (and this is my understanding) if you change a, c would also change! IS MATH NOW DISPROVEN??
 Equality signs: "=" mean assignment; "==" means equivalency; and "===" means that they are identical? is that the breakdown of the equal sign across the language?
