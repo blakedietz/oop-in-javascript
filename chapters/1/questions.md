@@ -156,9 +156,9 @@ When comparing two values with `===` it acts as you would hope it would behave.
 
 However, something strange happens when you use `==`
 ```js
-7 === 7 // true
-'a' === 'b' // false
-7 === '7' // true
+7 == 7 // true
+'a' == 'b' // false
+7 == '7' // true
 ```
 
 Huh, what happened to that last one? I'm pretty sure that the textual version of 7 is not the same as the numeric version of 7. Well in javascript under the covers, type coercion is going on. Type coercion is an implicit conversion of a value of one type to another. This can be useful, but can also cause a lot of headaches. For example here's some more fun ones
